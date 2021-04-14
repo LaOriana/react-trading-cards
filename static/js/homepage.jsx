@@ -2,7 +2,8 @@
 
 function Homepage() {
   return (
-    <div>
+    // Changed div to React.Fragment
+    <React.Fragment>
       <p>Hello user!</p>
       <p>
         <a href="/cards">Cards</a>
@@ -10,7 +11,7 @@ function Homepage() {
       <p>
       <img src="/static/img/balloonicorn.jpg" alt="Girl in a jacket"/> 
       </p>
-    </div>
+    </React.Fragment>
   );
 }
 
